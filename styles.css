@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+menu{
+    display: inline-flex;
+
+}
+.menubar{
+    display: inline-flex;
+}
+body{
+background-color: black;
+color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.h1{
+    font-size: 40px;
+}
+.about{
+    font-size: 50px;
+}
+img{
+    animation-name: image;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{color: orange;}
+    30%{color: red;}
+    55%{color: yellow;}
+    80%{color: blue;}
+    100%{color: aliceblue;}
+}
+
+@keyframes image {
+    0%{width: 400px;}
+    50%{width: 10px;}
+    100%{width: 400px;}
+    
+}
+
+.dept{
+    font-size: xx-large;
+}
